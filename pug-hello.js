@@ -1,5 +1,5 @@
-let express = require('express');
-let app = express();
+var express = require('express');
+var app = express();
 
 app.set('view engine', 'pug');
 app.set('views', process.argv[3]);

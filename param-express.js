@@ -1,5 +1,5 @@
-let express = require('express');
-let app = express();
+var express = require('express');
+var app = express();
 
 app.put('/message/:id', (req, res) => {
 	res.send(require('crypto')
